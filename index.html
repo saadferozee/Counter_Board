@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <!-- link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div id="container-box">
+            <div class="right">
+                <h5 class="screen-title">Now</h5>
+                <h1 id="now" class="screen orbitron">00</h1>
+            </div>
+            <div class="left">
+                <h5 class="screen-title">Next</h5>
+                <h1 id="next" class="screen orbitron">00</h1>
+            </div>
+        </div>
+        <div id="button-box">
+            <button id="btn-next" onclick="countUp()">Next</button>
+            <button id="btn-previous" onclick="countDown()">Previous</button>
+            <button id="btn-reset" onclick="reset()">Reset</button>
+        </div>
+    </section>
+    <!-- link Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
